@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(221, 236, 236);
+}
+
+header {
+    
+    display: grid ;
+    justify-items: center;
+    align-items: center;
+    
+}
+
+
+.logo-principal {
+    padding: 40px;
+    margin: 40px;
+    
+}
+
+li {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+   display: inline-block;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotoproducto {
+    display: flex;
+    justify-content: right;
+    
+}
+
+
+
+h2{
+text-align: center;
+    border: 2px solid black;
+    background-color: rgb(146, 190, 226);
+    
+}
+
+.resenias {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 0.3rem;
+    animation: sombra 1s ease 0s 1 normal forwards;
+}
+
+.movete{
+    display: flex;
+    margin: 40px;
+
+}
+
+.imagenproducto {
+    width: 400px;
+    height: 400px;
+    margin: 40px;
+    animation: sombra 1s ease 0s 1 normal forwards;
+    
+    
+}
+
+@keyframes sombra {
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+	}
+}
+
+
+
+.nosotros {
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imagennosotros {
+    width: 400px;
+    height: 400px;
+}
+
+
+.logo-principal{
+    width: 3000px;
+    height: 700px;
+
+}
+
+
+
+.imagenreseña {
+    width: 700px;
+    height: 300px;
+    margin: 40px;
+}
+
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
+.redes {
+    width: 100px;
+    height: 100px;
+}
+
+
+.productos {
+    margin: 40px;
+    
+}
+
+.nosotros {
+    margin: 40px;
+    
+}
+
+.contacto {
+    margin: 40px;
+    
+}
+
+.productos {
+    margin: 40px;
+    
+}
+
+.pedidos {
+    margin: 40px;
+    
+}
+
+h3 {
+    margin: 40px;
+}
+
+
